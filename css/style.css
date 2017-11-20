@@ -1,0 +1,16 @@
+.league{
+  display: block;
+  background-image: url('sprite-league-of-legends.png');
+
+}
+.warrick{
+  height: 190px;
+  width: 193px;
+  background-position: 0 15%;
+}
+.veigar{
+
+}
+.zyra{
+
+}
