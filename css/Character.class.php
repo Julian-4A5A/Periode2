@@ -15,7 +15,7 @@ class Character
   public function GetHtml()
   {
 
-    return "<span class='". $this->afbeelding ." ".$this->character . "";
+    return '<span class="' . $this->afbeelding . ' ' . $this->character . '"></span>';
   }
   public function SetCharacter($value)
   {
@@ -34,7 +34,9 @@ class Character
  */
 class Warwick extends Character
 {
-
+  protected $character = 'warrick';
+  protected $afbeelding = 'league';
+  
   public function jump()
   {
     echo "jumping";

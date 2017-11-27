@@ -8,14 +8,9 @@
   </head>
   <body>
     <?php
-    $warrick = new Warwick;
-    $warrick->SetCharacter('warrick');
-    $warrick->SetAfbeelding('league');
+    $warrick = new Warwick();
     echo $warrick->GetHtml();
-    $warrick->walk();
-    $warrick->jump();
-    $Lulu = new Lulu;
-    $Lulu->swim();-
+
     ?>
   </body>
 </html>
